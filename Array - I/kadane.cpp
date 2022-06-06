@@ -1,4 +1,4 @@
-long long max_sum = 0;
+long long max_sum = INT_MIN;
 long long sum = 0;
 for (int i = 0; i < n; i++)
 {

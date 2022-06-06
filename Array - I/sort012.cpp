@@ -2,6 +2,8 @@ int low = 0;
 int high = n - 1;
 int mid = 0;
 
+// loop till mid is less than high
+
 while (mid <= high)
 {
     if (arr[mid] == 0)

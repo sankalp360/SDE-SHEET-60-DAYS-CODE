@@ -1,4 +1,4 @@
-int prof = 0;
+int profit = 0;
 int buy = INT_MAX;
 int sell = 0;
 for (int i = 0; i < prices.size(); i++)
@@ -9,7 +9,7 @@ for (int i = 0; i < prices.size(); i++)
         continue;
     }
     sell = prices[i];
-    prof = max(prof, sell - buy);
+    profit = max(prof, sell - buy);
 }
 
-return prof;
+return profit;
